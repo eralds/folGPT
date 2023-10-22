@@ -30,7 +30,8 @@ api_key = config.get('azure', 'API_KEY')
 api_region = config.get('azure', 'API_REGION')
 api_language = config.get('azure', 'API_LANGUAGE')
 
-
+openai.api_key = config.get('openai', 'API_KEY')
+    
 app.config['UPLOAD_EXTENSIONS'] = ['.wav']
 app.config["LIMITER_HEADERS_ENABLED"] = True
 CORS(app)
@@ -149,7 +150,7 @@ def recognize_from_input(audio_in, lang):
 
 def talk_to_gpt(input, lang):
 
-    openai.api_key = "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"
+
 
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -167,10 +168,9 @@ def talk_back(output, voice):
 
 
     # Creates an instance of a speech config with specified subscription key and service region.
-    speech_key = "2579687366c14c2aac7a27a5d74d1075"
-    service_region = "switzerlandnorth"
 
-    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
+
+    speech_config = speechsdk.SpeechConfig(subscription=api_key, region=api_region)
     # Note: the voice setting will not overwrite the voice element in input SSML.
     speech_config.speech_synthesis_voice_name = voice
 
