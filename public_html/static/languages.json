@@ -1,0 +1,900 @@
+{
+    "languages": [
+          { "value": "sq-AL", "label" :"Albanian (Albania)"},
+          { "value": "en-US", "label" :"English (United States)"},
+          { "value": "af-ZA", "label" :"Afrikaans (South Africa)"},
+          { "value": "am-ET", "label" :"Amharic (Ethiopia)"},
+          { "value": "ar-DZ", "label" :"Arabic (Algeria)"},
+          { "value": "ar-BH", "label" :"Arabic (Bahrain)"},
+          { "value": "ar-EG", "label" :"Arabic (Egypt)"},
+          { "value": "ar-IQ", "label" :"Arabic (Iraq)"},
+          { "value": "ar-IL", "label" :"Arabic (Israel)"},
+          { "value": "ar-JO", "label" :"Arabic (Jordan)"},
+          { "value": "ar-KW", "label" :"Arabic (Kuwait)"},
+          { "value": "ar-LB", "label" :"Arabic (Lebanon)"},
+          { "value": "ar-LY", "label" :"Arabic (Libya)"},
+          { "value": "ar-MA", "label" :"Arabic (Morocco)"},
+          { "value": "ar-OM", "label" :"Arabic (Oman)"},
+          { "value": "ar-PS", "label" :"Arabic (Palestinian Territories)"},
+          { "value": "ar-QA", "label" :"Arabic (Qatar)"},
+          { "value": "ar-SA", "label" :"Arabic (Saudi Arabia)"},
+          { "value": "ar-SY", "label" :"Arabic (Syria)"},
+          { "value": "ar-TN", "label" :"Arabic (Tunisia)"},
+          { "value": "ar-AE", "label" :"Arabic (United Arab Emirates)"},
+          { "value": "ar-YE", "label" :"Arabic (Yemen)"},
+          { "value": "hy-AM", "label" :"Armenian (Armenia)"},
+          { "value": "az-AZ", "label" :"Azerbaijani (Latin, Azerbaijan)"},
+          { "value": "eu-ES", "label" :"Basque"},
+          { "value": "bn-IN", "label" :"Bengali (India)"},
+          { "value": "bs-BA", "label" :"Bosnian (Bosnia and Herzegovina)"},
+          { "value": "bg-BG", "label" :"Bulgarian (Bulgaria)"},
+          { "value": "my-MM", "label" :"Burmese (Myanmar)"},
+          { "value": "ca-ES", "label" :"Catalan (Spain)"},
+          { "value": "yue-CN", "label" :"Chinese (Cantonese, Simplified)"},
+          { "value": "zh-HK", "label" :"Chinese (Cantonese, Traditional)"},
+          { "value": "zh-CN-shandong", "label" :"Chinese (Jilu Mandarin, Simplified)"},
+          { "value": "zh-CN", "label" :"Chinese (Mandarin, Simplified)"},
+          { "value": "zh-CN-sichuan", "label" :"Chinese (Southwestern Mandarin, Simplified)"},
+          { "value": "zh-TW", "label" :"Chinese (Taiwanese Mandarin, Traditional)"},
+          { "value": "wuu-CN", "label" :"Chinese (Wu, Simplified)"},
+          { "value": "hr-HR", "label" :"Croatian (Croatia)"},
+          { "value": "cs-CZ", "label" :"Czech (Czechia)"},
+          { "value": "da-DK", "label" :"Danish (Denmark)"},
+          { "value": "nl-BE", "label" :"Dutch (Belgium)"},
+          { "value": "nl-NL", "label" :"Dutch (Netherlands)"},
+          { "value": "en-AU", "label" :"English (Australia)"},
+          { "value": "en-CA", "label" :"English (Canada)"},
+          { "value": "en-GH", "label" :"English (Ghana)"},
+          { "value": "en-HK", "label" :"English (Hong Kong SAR)"},
+          { "value": "en-IN", "label" :"English (India)"},
+          { "value": "en-IE", "label" :"English (Ireland)"},
+          { "value": "en-KE", "label" :"English (Kenya)"},
+          { "value": "en-NZ", "label" :"English (New Zealand)"},
+          { "value": "en-NG", "label" :"English (Nigeria)"},
+          { "value": "en-PH", "label" :"English (Philippines)"},
+          { "value": "en-SG", "label" :"English (Singapore)"},
+          { "value": "en-ZA", "label" :"English (South Africa)"},
+          { "value": "en-TZ", "label" :"English (Tanzania)"},
+          { "value": "en-GB", "label" :"English (United Kingdom)"},
+          { "value": "et-EE", "label" :"Estonian (Estonia)"},
+          { "value": "fil-PH", "label" :"Filipino (Philippines)"},
+          { "value": "fi-FI", "label" :"Finnish (Finland)"},
+          { "value": "fr-BE", "label" :"French (Belgium)"},
+          { "value": "fr-CA", "label" :"French (Canada)"},
+          { "value": "fr-FR", "label" :"French (France)"},
+          { "value": "fr-CH", "label" :"French (Switzerland)"},
+          { "value": "gl-ES", "label" :"Galician"},
+          { "value": "ka-GE", "label" :"Georgian (Georgia)"},
+          { "value": "de-AT", "label" :"German (Austria)"},
+          { "value": "de-DE", "label" :"German (Germany)"},
+          { "value": "de-CH", "label" :"German (Switzerland)"},
+          { "value": "el-GR", "label" :"Greek (Greece)"},
+          { "value": "gu-IN", "label" :"Gujarati (India)"},
+          { "value": "he-IL", "label" :"Hebrew (Israel)"},
+          { "value": "hi-IN", "label" :"Hindi (India)"},
+          { "value": "hu-HU", "label" :"Hungarian (Hungary)"},
+          { "value": "is-IS", "label" :"Icelandic (Iceland)"},
+          { "value": "id-ID", "label" :"Indonesian (Indonesia)"},
+          { "value": "ga-IE", "label" :"Irish (Ireland)"},
+          { "value": "it-IT", "label" :"Italian (Italy)"},
+          { "value": "it-CH", "label" :"Italian (Switzerland)"},
+          { "value": "ja-JP", "label" :"Japanese (Japan)"},
+          { "value": "jv-ID", "label" :"Javanese (Latin, Indonesia)"},
+          { "value": "kn-IN", "label" :"Kannada (India)"},
+          { "value": "kk-KZ", "label" :"Kazakh (Kazakhstan)"},
+          { "value": "km-KH", "label" :"Khmer (Cambodia)"},
+          { "value": "ko-KR", "label" :"Korean (Korea)"},
+          { "value": "lo-LA", "label" :"Lao (Laos)"},
+          { "value": "lv-LV", "label" :"Latvian (Latvia)"},
+          { "value": "lt-LT", "label" :"Lithuanian (Lithuania)"},
+          { "value": "mk-MK", "label" :"Macedonian (North Macedonia)"},
+          { "value": "ms-MY", "label" :"Malay (Malaysia)"},
+          { "value": "ml-IN", "label" :"Malayalam (India)"},
+          { "value": "mt-MT", "label" :"Maltese (Malta)"},
+          { "value": "mr-IN", "label" :"Marathi (India)"},
+          { "value": "mn-MN", "label" :"Mongolian (Mongolia)"},
+          { "value": "ne-NP", "label" :"Nepali (Nepal)"},
+          { "value": "nb-NO", "label" :"Norwegian Bokmål (Norway)"},
+          { "value": "ps-AF", "label" :"Pashto (Afghanistan)"},
+          { "value": "fa-IR", "label" :"Persian (Iran)"},
+          { "value": "pl-PL", "label" :"Polish (Poland)"},
+          { "value": "pt-BR", "label" :"Portuguese (Brazil)"},
+          { "value": "pt-PT", "label" :"Portuguese (Portugal)"},
+          { "value": "ro-RO", "label" :"Romanian (Romania)"},
+          { "value": "ru-RU", "label" :"Russian (Russia)"},
+          { "value": "sr-RS", "label" :"Serbian (Cyrillic, Serbia)"},
+          { "value": "si-LK", "label" :"Sinhala (Sri Lanka)"},
+          { "value": "sk-SK", "label" :"Slovak (Slovakia)"},
+          { "value": "sl-SI", "label" :"Slovenian (Slovenia)"},
+          { "value": "so-SO", "label" :"Somali (Somalia)"},
+          { "value": "es-AR", "label" :"Spanish (Argentina)"},
+          { "value": "es-BO", "label" :"Spanish (Bolivia)"},
+          { "value": "es-CL", "label" :"Spanish (Chile)"},
+          { "value": "es-CO", "label" :"Spanish (Colombia)"},
+          { "value": "es-CR", "label" :"Spanish (Costa Rica)"},
+          { "value": "es-CU", "label" :"Spanish (Cuba)"},
+          { "value": "es-DO", "label" :"Spanish (Dominican Republic)"},
+          { "value": "es-EC", "label" :"Spanish (Ecuador)"},
+          { "value": "es-SV", "label" :"Spanish (El Salvador)"},
+          { "value": "es-GQ", "label" :"Spanish (Equatorial Guinea)"},
+          { "value": "es-GT", "label" :"Spanish (Guatemala)"},
+          { "value": "es-HN", "label" :"Spanish (Honduras)"},
+          { "value": "es-MX", "label" :"Spanish (Mexico)"},
+          { "value": "es-NI", "label" :"Spanish (Nicaragua)"},
+          { "value": "es-PA", "label" :"Spanish (Panama)"},
+          { "value": "es-PY", "label" :"Spanish (Paraguay)"},
+          { "value": "es-PE", "label" :"Spanish (Peru)"},
+          { "value": "es-PR", "label" :"Spanish (Puerto Rico)"},
+          { "value": "es-ES", "label" :"Spanish (Spain)"},
+          { "value": "es-US", "label" :"Spanish (United States)"},
+          { "value": "es-UY", "label" :"Spanish (Uruguay)"},
+          { "value": "es-VE", "label" :"Spanish (Venezuela)"},
+          { "value": "sw-KE", "label" :"Swahili (Kenya)"},
+          { "value": "sw-TZ", "label" :"Swahili (Tanzania)"},
+          { "value": "sv-SE", "label" :"Swedish (Sweden)"},
+          { "value": "ta-IN", "label" :"Tamil (India)"},
+          { "value": "te-IN", "label" :"Telugu (India)"},
+          { "value": "th-TH", "label" :"Thai (Thailand)"},
+          { "value": "tr-TR", "label" :"Turkish (Turkey)"},
+          { "value": "uk-UA", "label" :"Ukrainian (Ukraine)"},
+          { "value": "uz-UZ", "label" :"Uzbek (Latin, Uzbekistan)"},
+          { "value": "vi-VN", "label" :"Vietnamese (Vietnam)"},
+          { "value": "cy-GB", "label" :"Welsh (United Kingdom)"},
+          { "value": "zu-ZA", "label" :"Zulu (South Africa)"}
+    ],
+    "voices": {
+      
+        "af-ZA" : [
+            
+            {"value": "af-ZA-AdriNeural", "label":"Adri (Female)" },    
+            {"value": "af-ZA-WillemNeural", "label":"Willem (Male)" }
+        ],"am-ET" : [
+            
+            {"value": "am-ET-MekdesNeural", "label":"Mekdes (Female)" },    
+            {"value": "am-ET-AmehaNeural", "label":"Ameha (Male)" }
+        ],"ar-AE" : [
+            
+            {"value": "ar-AE-FatimaNeural", "label":"Fatima (Female)" },    
+            {"value": "ar-AE-HamdanNeural", "label":"Hamdan (Male)" }
+        ],"ar-BH" : [
+            
+            {"value": "ar-BH-LailaNeural", "label":"Laila (Female)" },  
+            {"value": "ar-BH-AliNeural", "label":"Ali (Male)" }
+        ],"ar-DZ" : [
+            
+            {"value": "ar-DZ-AminaNeural", "label":"Amina (Female)" },  
+            {"value": "ar-DZ-IsmaelNeural", "label":"Ismael (Male)" }
+        ],"ar-EG" : [
+            
+            {"value": "ar-EG-SalmaNeural", "label":"Salma (Female)" },  
+            {"value": "ar-EG-ShakirNeural", "label":"Shakir (Male)" }
+        ],"ar-IQ" : [
+            
+            {"value": "ar-IQ-RanaNeural", "label":"Rana (Female)" },    
+            {"value": "ar-IQ-BasselNeural", "label":"Bassel (Male)" }
+        ],"ar-JO" : [
+            
+            {"value": "ar-JO-SanaNeural", "label":"Sana (Female)" },    
+            {"value": "ar-JO-TaimNeural", "label":"Taim (Male)" }
+        ],"ar-KW" : [
+            
+            {"value": "ar-KW-NouraNeural", "label":"Noura (Female)" },  
+            {"value": "ar-KW-FahedNeural", "label":"Fahed (Male)" }
+        ],"ar-LB" : [
+            
+            {"value": "ar-LB-LaylaNeural", "label":"Layla (Female)" },  
+            {"value": "ar-LB-RamiNeural", "label":"Rami (Male)" }
+        ],"ar-LY" : [
+            
+            {"value": "ar-LY-ImanNeural", "label":"Iman (Female)" },    
+            {"value": "ar-LY-OmarNeural", "label":"Omar (Male)" }
+        ],"ar-MA" : [
+            
+            {"value": "ar-MA-MounaNeural", "label":"Mouna (Female)" },  
+            {"value": "ar-MA-JamalNeural", "label":"Jamal (Male)" }
+        ],"ar-OM" : [
+            
+            {"value": "ar-OM-AyshaNeural", "label":"Aysha (Female)" },  
+            {"value": "ar-OM-AbdullahNeural", "label":"Abdullah (Male)" }
+        ],"ar-QA" : [
+            
+            {"value": "ar-QA-AmalNeural", "label":"Amal (Female)" },    
+            {"value": "ar-QA-MoazNeural", "label":"Moaz (Male)" }
+        ],"ar-SA" : [
+            
+            {"value": "ar-SA-ZariyahNeural", "label":"Zariyah (Female)" },  
+            {"value": "ar-SA-HamedNeural", "label":"Hamed (Male)" }
+        ],"ar-SY" : [
+            
+            {"value": "ar-SY-AmanyNeural", "label":"Amany (Female)" },  
+            {"value": "ar-SY-LaithNeural", "label":"Laith (Male)" }
+        ],"ar-TN" : [
+            
+            {"value": "ar-TN-ReemNeural", "label":"Reem (Female)" },    
+            {"value": "ar-TN-HediNeural", "label":"Hedi (Male)" }
+        ],"ar-YE" : [
+            
+            {"value": "ar-YE-MaryamNeural", "label":"Maryam (Female)" },    
+            {"value": "ar-YE-SalehNeural", "label":"Saleh (Male)" }
+        ],"az-AZ" : [
+            
+            {"value": "az-AZ-BanuNeural", "label":"Banu (Female)" },    
+            {"value": "az-AZ-BabekNeural", "label":"Babek (Male)" }
+        ],"bg-BG" : [
+            
+            {"value": "bg-BG-KalinaNeural", "label":"Kalina (Female)" },    
+            {"value": "bg-BG-BorislavNeural", "label":"Borislav (Male)" }
+        ],"bn-BD" : [
+            
+            {"value": "bn-BD-NabanitaNeural", "label":"Nabanita (Female)" },    
+            {"value": "bn-BD-PradeepNeural", "label":"Pradeep (Male)" }
+        ],"bn-IN" : [
+            
+            {"value": "bn-IN-TanishaaNeural", "label":"Tanishaa (Female)" },    
+            {"value": "bn-IN-BashkarNeural", "label":"Bashkar (Male)" }
+        ],"bs-BA" : [
+            
+            {"value": "bs-BA-VesnaNeural", "label":"Vesna (Female)" },  
+            {"value": "bs-BA-GoranNeural", "label":"Goran (Male)" }
+        ],"ca-ES" : [
+            
+            {"value": "ca-ES-JoanaNeural", "label":"Joana (Female)" },  
+            {"value": "ca-ES-EnricNeural", "label":"Enric (Male)" },  
+            {"value": "ca-ES-AlbaNeural", "label":"Alba (Female)" }
+        ],"cs-CZ" : [
+            
+            {"value": "cs-CZ-VlastaNeural", "label":"Vlasta (Female)" },    
+            {"value": "cs-CZ-AntoninNeural", "label":"Antonin (Male)" }
+        ],"cy-GB" : [
+            
+            {"value": "cy-GB-NiaNeural", "label":"Nia (Female)" },  
+            {"value": "cy-GB-AledNeural", "label":"Aled (Male)" }
+        ],"da-DK" : [
+            
+            {"value": "da-DK-ChristelNeural", "label":"Christel (Female)" },    
+            {"value": "da-DK-JeppeNeural", "label":"Jeppe (Male)" }
+        ],"de-AT" : [
+            
+            {"value": "de-AT-IngridNeural", "label":"Ingrid (Female)" },    
+            {"value": "de-AT-JonasNeural", "label":"Jonas (Male)" }
+        ],"de-CH" : [
+            
+            {"value": "de-CH-LeniNeural", "label":"Leni (Female)" },    
+            {"value": "de-CH-JanNeural", "label":"Jan (Male)" }
+        ],"de-DE" : [
+            
+            {"value": "de-DE-KatjaNeural", "label":"Katja (Female)" },  
+            {"value": "de-DE-ConradNeural", "label":"Conrad (Male)" },    
+            {"value": "de-DE-AmalaNeural", "label":"Amala (Female)" },  
+            {"value": "de-DE-BerndNeural", "label":"Bernd (Male)" },  
+            {"value": "de-DE-ChristophNeural", "label":"Christoph (Male)" },  
+            {"value": "de-DE-ElkeNeural", "label":"Elke (Female)" },  
+            {"value": "de-DE-GiselaNeural", "label":"Gisela (Female, Child)" },   
+            {"value": "de-DE-KasperNeural", "label":"Kasper (Male)" },  
+            {"value": "de-DE-KillianNeural", "label":"Killian (Male)" },  
+            {"value": "de-DE-KlarissaNeural", "label":"Klarissa (Female)" },  
+            {"value": "de-DE-KlausNeural", "label":"Klaus (Male)" },  
+            {"value": "de-DE-LouisaNeural", "label":"Louisa (Female)" },  
+            {"value": "de-DE-MajaNeural", "label":"Maja (Female)" },  
+            {"value": "de-DE-RalfNeural", "label":"Ralf (Male)" },    
+            {"value": "de-DE-TanjaNeural", "label":"Tanja (Female)" }
+        ],"el-GR" : [
+            
+            {"value": "el-GR-AthinaNeural", "label":"Athina (Female)" },    
+            {"value": "el-GR-NestorasNeural", "label":"Nestoras (Male)" }
+        ],"en-AU" : [
+            
+            {"value": "en-AU-NatashaNeural", "label":"Natasha (Female)" },  
+            {"value": "en-AU-WilliamNeural", "label":"William (Male)" },  
+            {"value": "en-AU-AnnetteNeural", "label":"Annette (Female)" },    
+            {"value": "en-AU-CarlyNeural", "label":"Carly (Female)" },  
+            {"value": "en-AU-DarrenNeural", "label":"Darren (Male)" },    
+            {"value": "en-AU-DuncanNeural", "label":"Duncan (Male)" },  
+            {"value": "en-AU-ElsieNeural", "label":"Elsie (Female)" },    
+            {"value": "en-AU-FreyaNeural", "label":"Freya (Female)" },  
+            {"value": "en-AU-JoanneNeural", "label":"Joanne (Female)" },  
+            {"value": "en-AU-KenNeural", "label":"Ken (Male)" },  
+            {"value": "en-AU-KimNeural", "label":"Kim (Female)" },    
+            {"value": "en-AU-NeilNeural", "label":"Neil (Male)" },  
+            {"value": "en-AU-TimNeural", "label":"Tim (Male)" },  
+            {"value": "en-AU-TinaNeural", "label":"Tina (Female)" }
+        ],"en-CA" : [
+            
+            {"value": "en-CA-ClaraNeural", "label":"Clara (Female)" },  
+            {"value": "en-CA-LiamNeural", "label":"Liam (Male)" }
+        ],"en-GB" : [
+            
+            {"value": "en-GB-SoniaNeural", "label":"Sonia (Female)" },  
+            {"value": "en-GB-RyanNeural", "label":"Ryan (Male)" },    
+            {"value": "en-GB-LibbyNeural", "label":"Libby (Female)" },  
+            {"value": "en-GB-AbbiNeural", "label":"Abbi (Female)" },  
+            {"value": "en-GB-AlfieNeural", "label":"Alfie (Male)" },  
+            {"value": "en-GB-BellaNeural", "label":"Bella (Female)" },    
+            {"value": "en-GB-ElliotNeural", "label":"Elliot (Male)" },  
+            {"value": "en-GB-EthanNeural", "label":"Ethan (Male)" },  
+            {"value": "en-GB-HollieNeural", "label":"Hollie (Female)" },  
+            {"value": "en-GB-MaisieNeural", "label":"Maisie (Female, Child)" }, 
+            {"value": "en-GB-NoahNeural", "label":"Noah (Male)" },  
+            {"value": "en-GB-OliverNeural", "label":"Oliver (Male)" },    
+            {"value": "en-GB-OliviaNeural", "label":"Olivia (Female)" },    
+            {"value": "en-GB-ThomasNeural", "label":"Thomas (Male)" }
+        ],"en-HK" : [
+            
+            {"value": "en-HK-YanNeural", "label":"Yan (Female)" },  
+            {"value": "en-HK-SamNeural", "label":"Sam (Male)" }
+        ],"en-IE" : [
+            
+            {"value": "en-IE-EmilyNeural", "label":"Emily (Female)" },  
+            {"value": "en-IE-ConnorNeural", "label":"Connor (Male)" }
+        ],"en-IN" : [
+            
+            {"value": "en-IN-NeerjaNeural", "label":"Neerja (Female)" },    
+            {"value": "en-IN-PrabhatNeural", "label":"Prabhat (Male)" }
+        ],"en-KE" : [
+            
+            {"value": "en-KE-AsiliaNeural", "label":"Asilia (Female)" },    
+            {"value": "en-KE-ChilembaNeural", "label":"Chilemba (Male)" }
+        ],"en-NG" : [
+            
+            {"value": "en-NG-EzinneNeural", "label":"Ezinne (Female)" },    
+            {"value": "en-NG-AbeoNeural", "label":"Abeo (Male)" }
+        ],"en-NZ" : [
+            
+            {"value": "en-NZ-MollyNeural", "label":"Molly (Female)" },  
+            {"value": "en-NZ-MitchellNeural", "label":"Mitchell (Male)" }
+        ],"en-PH" : [
+            
+            {"value": "en-PH-RosaNeural", "label":"Rosa (Female)" },    
+            {"value": "en-PH-JamesNeural", "label":"James (Male)" }
+        ],"en-SG" : [
+            
+            {"value": "en-SG-LunaNeural", "label":"Luna (Female)" },    
+            {"value": "en-SG-WayneNeural", "label":"Wayne (Male)" }
+        ],"en-TZ" : [
+            
+            {"value": "en-TZ-ImaniNeural", "label":"Imani (Female)" },  
+            {"value": "en-TZ-ElimuNeural", "label":"Elimu (Male)" }
+        ],"en-US" : [
+            
+            {"value": "en-US-JennyNeural", "label":"Jenny (Female)" },  
+            {"value": "en-US-JennyMultilingualNeural", "label":"JennyMultilingual (Female)" },    
+            {"value": "en-US-GuyNeural", "label":"Guy (Male)" },    
+            {"value": "en-US-AriaNeural", "label":"Aria (Female)" },    
+            {"value": "en-US-DavisNeural", "label":"Davis (Male)" },    
+            {"value": "en-US-AmberNeural", "label":"Amber (Female)" },  
+            {"value": "en-US-AnaNeural", "label":"Ana (Female, Child)" },
+            {"value": "en-US-AshleyNeural", "label":"Ashley (Female)" },  
+            {"value": "en-US-BrandonNeural", "label":"Brandon (Male)" },  
+            {"value": "en-US-ChristopherNeural", "label":"Christopher (Male)" },  
+            {"value": "en-US-CoraNeural", "label":"Cora (Female)" },  
+            {"value": "en-US-ElizabethNeural", "label":"Elizabeth (Female)" },    
+            {"value": "en-US-EricNeural", "label":"Eric (Male)" },  
+            {"value": "en-US-JacobNeural", "label":"Jacob (Male)" },  
+            {"value": "en-US-JaneNeural", "label":"Jane (Female)" },  
+            {"value": "en-US-JasonNeural", "label":"Jason (Male)" },  
+            {"value": "en-US-MichelleNeural", "label":"Michelle (Female)" },  
+            {"value": "en-US-MonicaNeural", "label":"Monica (Female)" },  
+            {"value": "en-US-NancyNeural", "label":"Nancy (Female)" },    
+            {"value": "en-US-RogerNeural", "label":"Roger (Male)" },    
+            {"value": "en-US-SaraNeural", "label":"Sara (Female)" },    
+            {"value": "en-US-SteffanNeural", "label":"Steffan (Male)" },    
+            {"value": "en-US-TonyNeural", "label":"Tony (Male)" },  
+            {"value": "en-US-AIGenerate1Neural", "label":"AIGenerate1 (Male)" },  
+            {"value": "en-US-AIGenerate2Neural", "label":"AIGenerate2 (Female)" }
+        ],"en-ZA" : [
+            
+            {"value": "en-ZA-LeahNeural", "label":"Leah (Female)" },    
+            {"value": "en-ZA-LukeNeural", "label":"Luke (Male)" }
+        ],"es-AR" : [
+            
+            {"value": "es-AR-ElenaNeural", "label":"Elena (Female)" },  
+            {"value": "es-AR-TomasNeural", "label":"Tomas (Male)" }
+        ],"es-BO" : [
+            
+            {"value": "es-BO-SofiaNeural", "label":"Sofia (Female)" },  
+            {"value": "es-BO-MarceloNeural", "label":"Marcelo (Male)" }
+        ],"es-CL" : [
+            
+            {"value": "es-CL-CatalinaNeural", "label":"Catalina (Female)" },    
+            {"value": "es-CL-LorenzoNeural", "label":"Lorenzo (Male)" }
+        ],"es-CO" : [
+            
+            {"value": "es-CO-SalomeNeural", "label":"Salome (Female)" },    
+            {"value": "es-CO-GonzaloNeural", "label":"Gonzalo (Male)" }
+        ],"es-CR" : [
+            
+            {"value": "es-CR-MariaNeural", "label":"Maria (Female)" },  
+            {"value": "es-CR-JuanNeural", "label":"Juan (Male)" }
+        ],"es-CU" : [
+            
+            {"value": "es-CU-BelkysNeural", "label":"Belkys (Female)" },    
+            {"value": "es-CU-ManuelNeural", "label":"Manuel (Male)" }
+        ],"es-DO" : [
+            
+            {"value": "es-DO-RamonaNeural", "label":"Ramona (Female)" },    
+            {"value": "es-DO-EmilioNeural", "label":"Emilio (Male)" }
+        ],"es-EC" : [
+            
+            {"value": "es-EC-AndreaNeural", "label":"Andrea (Female)" },    
+            {"value": "es-EC-LuisNeural", "label":"Luis (Male)" }
+        ],"es-ES" : [
+            
+            {"value": "es-ES-ElviraNeural", "label":"Elvira (Female)" },    
+            {"value": "es-ES-AlvaroNeural", "label":"Alvaro (Male)" },  
+            {"value": "es-ES-AbrilNeural", "label":"Abril (Female)" },    
+            {"value": "es-ES-ArnauNeural", "label":"Arnau (Male)" },    
+            {"value": "es-ES-DarioNeural", "label":"Dario (Male)" },    
+            {"value": "es-ES-EliasNeural", "label":"Elias (Male)" },    
+            {"value": "es-ES-EstrellaNeural", "label":"Estrella (Female)" },    
+            {"value": "es-ES-IreneNeural", "label":"Irene (Female)" },  
+            {"value": "es-ES-LaiaNeural", "label":"Laia (Female)" },  
+            {"value": "es-ES-LiaNeural", "label":"Lia (Female)" },    
+            {"value": "es-ES-NilNeural", "label":"Nil (Male)" },    
+            {"value": "es-ES-SaulNeural", "label":"Saul (Male)" },  
+            {"value": "es-ES-TeoNeural", "label":"Teo (Male)" },  
+            {"value": "es-ES-TrianaNeural", "label":"Triana (Female)" },  
+            {"value": "es-ES-VeraNeural", "label":"Vera (Female)" }
+        ],"es-GQ" : [
+            
+            {"value": "es-GQ-TeresaNeural", "label":"Teresa (Female)" },    
+            {"value": "es-GQ-JavierNeural", "label":"Javier (Male)" }
+        ],"es-GT" : [
+            
+            {"value": "es-GT-MartaNeural", "label":"Marta (Female)" },  
+            {"value": "es-GT-AndresNeural", "label":"Andres (Male)" }
+        ],"es-HN" : [
+            
+            {"value": "es-HN-KarlaNeural", "label":"Karla (Female)" },  
+            {"value": "es-HN-CarlosNeural", "label":"Carlos (Male)" }
+        ],"es-MX" : [
+            
+            {"value": "es-MX-DaliaNeural", "label":"Dalia (Female)" },  
+            {"value": "es-MX-JorgeNeural", "label":"Jorge (Male)" },  
+            {"value": "es-MX-BeatrizNeural", "label":"Beatriz (Female)" },    
+            {"value": "es-MX-CandelaNeural", "label":"Candela (Female)" },  
+            {"value": "es-MX-CarlotaNeural", "label":"Carlota (Female)" },    
+            {"value": "es-MX-CecilioNeural", "label":"Cecilio (Male)" },    
+            {"value": "es-MX-GerardoNeural", "label":"Gerardo (Male)" },    
+            {"value": "es-MX-LarissaNeural", "label":"Larissa (Female)" },  
+            {"value": "es-MX-LibertoNeural", "label":"Liberto (Male)" },  
+            {"value": "es-MX-LucianoNeural", "label":"Luciano (Male)" },  
+            {"value": "es-MX-MarinaNeural", "label":"Marina (Female)" },  
+            {"value": "es-MX-NuriaNeural", "label":"Nuria (Female)" },    
+            {"value": "es-MX-PelayoNeural", "label":"Pelayo (Male)" },  
+            {"value": "es-MX-RenataNeural", "label":"Renata (Female)" },  
+            {"value": "es-MX-YagoNeural", "label":"Yago (Male)" }
+        ],"es-NI" : [
+            
+            {"value": "es-NI-YolandaNeural", "label":"Yolanda (Female)" },  
+            {"value": "es-NI-FedericoNeural", "label":"Federico (Male)" }
+        ],"es-PA" : [
+            
+            {"value": "es-PA-MargaritaNeural", "label":"Margarita (Female)" },  
+            {"value": "es-PA-RobertoNeural", "label":"Roberto (Male)" }
+        ],"es-PE" : [
+            
+            {"value": "es-PE-CamilaNeural", "label":"Camila (Female)" },    
+            {"value": "es-PE-AlexNeural", "label":"Alex (Male)" }
+        ],"es-PR" : [
+            
+            {"value": "es-PR-KarinaNeural", "label":"Karina (Female)" },    
+            {"value": "es-PR-VictorNeural", "label":"Victor (Male)" }
+        ],"es-PY" : [
+            
+            {"value": "es-PY-TaniaNeural", "label":"Tania (Female)" },  
+            {"value": "es-PY-MarioNeural", "label":"Mario (Male)" }
+        ],"es-SV" : [
+            
+            {"value": "es-SV-LorenaNeural", "label":"Lorena (Female)" },    
+            {"value": "es-SV-RodrigoNeural", "label":"Rodrigo (Male)" }
+        ],"es-US" : [
+            
+            {"value": "es-US-PalomaNeural", "label":"Paloma (Female)" },    
+            {"value": "es-US-AlonsoNeural", "label":"Alonso (Male)" }
+        ],"es-UY" : [
+            
+            {"value": "es-UY-ValentinaNeural", "label":"Valentina (Female)" },  
+            {"value": "es-UY-MateoNeural", "label":"Mateo (Male)" }
+        ],"es-VE" : [
+            
+            {"value": "es-VE-PaolaNeural", "label":"Paola (Female)" },  
+            {"value": "es-VE-SebastianNeural", "label":"Sebastian (Male)" }
+        ],"et-EE" : [
+            
+            {"value": "et-EE-AnuNeural", "label":"Anu (Female)" },  
+            {"value": "et-EE-KertNeural", "label":"Kert (Male)" }
+        ],"eu-ES" : [
+            
+            {"value": "eu-ES-AinhoaNeural", "label":"Ainhoa (Female)" },    
+            {"value": "eu-ES-AnderNeural", "label":"Ander (Male)" }
+        ],"fa-IR" : [
+            
+            {"value": "fa-IR-DilaraNeural", "label":"Dilara (Female)" },    
+            {"value": "fa-IR-FaridNeural", "label":"Farid (Male)" }
+        ],"fi-FI" : [
+            
+            {"value": "fi-FI-SelmaNeural", "label":"Selma (Female)" },  
+            {"value": "fi-FI-HarriNeural", "label":"Harri (Male)" },  
+            {"value": "fi-FI-NooraNeural", "label":"Noora (Female)" }
+        ],"fil-PH" : [
+            
+            {"value": "fil-PH-BlessicaNeural", "label":"Blessica (Female)" },   
+            {"value": "fil-PH-AngeloNeural", "label":"Angelo (Male)" }
+        ],"fr-BE" : [
+            
+            {"value": "fr-BE-CharlineNeural", "label":"Charline (Female)" },    
+            {"value": "fr-BE-GerardNeural", "label":"Gerard (Male)" }
+        ],"fr-CA" : [
+            
+            {"value": "fr-CA-SylvieNeural", "label":"Sylvie (Female)" },    
+            {"value": "fr-CA-JeanNeural", "label":"Jean (Male)" },  
+            {"value": "fr-CA-AntoineNeural", "label":"Antoine (Male)" }
+        ],"fr-CH" : [
+            
+            {"value": "fr-CH-ArianeNeural", "label":"Ariane (Female)" },    
+            {"value": "fr-CH-FabriceNeural", "label":"Fabrice (Male)" }
+        ],"fr-FR" : [
+            
+            {"value": "fr-FR-DeniseNeural", "label":"Denise (Female)" },    
+            {"value": "fr-FR-HenriNeural", "label":"Henri (Male)" },    
+            {"value": "fr-FR-AlainNeural", "label":"Alain (Male)" },    
+            {"value": "fr-FR-BrigitteNeural", "label":"Brigitte (Female)" },    
+            {"value": "fr-FR-CelesteNeural", "label":"Celeste (Female)" },  
+            {"value": "fr-FR-ClaudeNeural", "label":"Claude (Male)" },    
+            {"value": "fr-FR-CoralieNeural", "label":"Coralie (Female)" },  
+            {"value": "fr-FR-EloiseNeural", "label":"Eloise (Female, Child)" },  
+            {"value": "fr-FR-JacquelineNeural", "label":"Jacqueline (Female)" },    
+            {"value": "fr-FR-JeromeNeural", "label":"Jerome (Male)" },  
+            {"value": "fr-FR-JosephineNeural", "label":"Josephine (Female)" },    
+            {"value": "fr-FR-MauriceNeural", "label":"Maurice (Male)" },    
+            {"value": "fr-FR-YvesNeural", "label":"Yves (Male)" },  
+            {"value": "fr-FR-YvetteNeural", "label":"Yvette (Female)" }
+        ],"ga-IE" : [
+            
+            {"value": "ga-IE-OrlaNeural", "label":"Orla (Female)" },    
+            {"value": "ga-IE-ColmNeural", "label":"Colm (Male)" }
+        ],"gl-ES" : [
+            
+            {"value": "gl-ES-SabelaNeural", "label":"Sabela (Female)" },    
+            {"value": "gl-ES-RoiNeural", "label":"Roi (Male)" }
+        ],"gu-IN" : [
+            
+            {"value": "gu-IN-DhwaniNeural", "label":"Dhwani (Female)" },    
+            {"value": "gu-IN-NiranjanNeural", "label":"Niranjan (Male)" }
+        ],"he-IL" : [
+            
+            {"value": "he-IL-HilaNeural", "label":"Hila (Female)" },    
+            {"value": "he-IL-AvriNeural", "label":"Avri (Male)" }
+        ],"hi-IN" : [
+            
+            {"value": "hi-IN-SwaraNeural", "label":"Swara (Female)" },  
+            {"value": "hi-IN-MadhurNeural", "label":"Madhur (Male)" }
+        ],"hr-HR" : [
+            
+            {"value": "hr-HR-GabrijelaNeural", "label":"Gabrijela (Female)" },  
+            {"value": "hr-HR-SreckoNeural", "label":"Srecko (Male)" }
+        ],"hu-HU" : [
+            
+            {"value": "hu-HU-NoemiNeural", "label":"Noemi (Female)" },  
+            {"value": "hu-HU-TamasNeural", "label":"Tamas (Male)" }
+        ],"hy-AM" : [
+            
+            {"value": "hy-AM-AnahitNeural", "label":"Anahit (Female)" },    
+            {"value": "hy-AM-HaykNeural", "label":"Hayk (Male)" }
+        ],"id-ID" : [
+            
+            {"value": "id-ID-GadisNeural", "label":"Gadis (Female)" },  
+            {"value": "id-ID-ArdiNeural", "label":"Ardi (Male)" }
+        ],"is-IS" : [
+            
+            {"value": "is-IS-GudrunNeural", "label":"Gudrun (Female)" },    
+            {"value": "is-IS-GunnarNeural", "label":"Gunnar (Male)" }
+        ],"it-IT" : [
+            
+            {"value": "it-IT-ElsaNeural", "label":"Elsa (Female)" },    
+            {"value": "it-IT-IsabellaNeural", "label":"Isabella (Female)" },    
+            {"value": "it-IT-DiegoNeural", "label":"Diego (Male)" },    
+            {"value": "it-IT-BenignoNeural", "label":"Benigno (Male)" },    
+            {"value": "it-IT-CalimeroNeural", "label":"Calimero (Male)" },  
+            {"value": "it-IT-CataldoNeural", "label":"Cataldo (Male)" },  
+            {"value": "it-IT-FabiolaNeural", "label":"Fabiola (Female)" },    
+            {"value": "it-IT-FiammaNeural", "label":"Fiamma (Female)" },    
+            {"value": "it-IT-GianniNeural", "label":"Gianni (Male)" },  
+            {"value": "it-IT-ImeldaNeural", "label":"Imelda (Female)" },  
+            {"value": "it-IT-IrmaNeural", "label":"Irma (Female)" },  
+            {"value": "it-IT-LisandroNeural", "label":"Lisandro (Male)" },    
+            {"value": "it-IT-PalmiraNeural", "label":"Palmira (Female)" },  
+            {"value": "it-IT-PierinaNeural", "label":"Pierina (Female)" },    
+            {"value": "it-IT-RinaldoNeural", "label":"Rinaldo (Male)" }
+        ],"ja-JP" : [
+            
+            {"value": "ja-JP-NanamiNeural", "label":"Nanami (Female)" },    
+            {"value": "ja-JP-KeitaNeural", "label":"Keita (Male)" },    
+            {"value": "ja-JP-AoiNeural", "label":"Aoi (Female)" },  
+            {"value": "ja-JP-DaichiNeural", "label":"Daichi (Male)" },    
+            {"value": "ja-JP-MayuNeural", "label":"Mayu (Female)" },    
+            {"value": "ja-JP-NaokiNeural", "label":"Naoki (Male)" },    
+            {"value": "ja-JP-ShioriNeural", "label":"Shiori (Female)" }
+        ],"jv-ID" : [
+            
+            {"value": "jv-ID-SitiNeural", "label":"Siti (Female)" },    
+            {"value": "jv-ID-DimasNeural", "label":"Dimas (Male)" }
+        ],"ka-GE" : [
+            
+            {"value": "ka-GE-EkaNeural", "label":"Eka (Female)" },  
+            {"value": "ka-GE-GiorgiNeural", "label":"Giorgi (Male)" }
+        ],"kk-KZ" : [
+            
+            {"value": "kk-KZ-AigulNeural", "label":"Aigul (Female)" },  
+            {"value": "kk-KZ-DauletNeural", "label":"Daulet (Male)" }
+        ],"km-KH" : [
+            
+            {"value": "km-KH-SreymomNeural", "label":"Sreymom (Female)" },  
+            {"value": "km-KH-PisethNeural", "label":"Piseth (Male)" }
+        ],"kn-IN" : [
+            
+            {"value": "kn-IN-SapnaNeural", "label":"Sapna (Female)" },  
+            {"value": "kn-IN-GaganNeural", "label":"Gagan (Male)" }
+        ],"ko-KR" : [
+            
+            {"value": "ko-KR-SunHiNeural", "label":"SunHi (Female)" },  
+            {"value": "ko-KR-InJoonNeural", "label":"InJoon (Male)" },    
+            {"value": "ko-KR-BongJinNeural", "label":"BongJin (Male)" },    
+            {"value": "ko-KR-GookMinNeural", "label":"GookMin (Male)" },    
+            {"value": "ko-KR-JiMinNeural", "label":"JiMin (Female)" },  
+            {"value": "ko-KR-SeoHyeonNeural", "label":"SeoHyeon (Female)" },  
+            {"value": "ko-KR-SoonBokNeural", "label":"SoonBok (Female)" },    
+            {"value": "ko-KR-YuJinNeural", "label":"YuJin (Female)" }
+        ],"lo-LA" : [
+            
+            {"value": "lo-LA-KeomanyNeural", "label":"Keomany (Female)" },  
+            {"value": "lo-LA-ChanthavongNeural", "label":"Chanthavong (Male)" }
+        ],"lt-LT" : [
+            
+            {"value": "lt-LT-OnaNeural", "label":"Ona (Female)" },  
+            {"value": "lt-LT-LeonasNeural", "label":"Leonas (Male)" }
+        ],"lv-LV" : [
+            
+            {"value": "lv-LV-EveritaNeural", "label":"Everita (Female)" },  
+            {"value": "lv-LV-NilsNeural", "label":"Nils (Male)" }
+        ],"mk-MK" : [
+            
+            {"value": "mk-MK-MarijaNeural", "label":"Marija (Female)" },    
+            {"value": "mk-MK-AleksandarNeural", "label":"Aleksandar (Male)" }
+        ],"ml-IN" : [
+            
+            {"value": "ml-IN-SobhanaNeural", "label":"Sobhana (Female)" },  
+            {"value": "ml-IN-MidhunNeural", "label":"Midhun (Male)" }
+        ],"mn-MN" : [
+            
+            {"value": "mn-MN-YesuiNeural", "label":"Yesui (Female)" },  
+            {"value": "mn-MN-BataaNeural", "label":"Bataa (Male)" }
+        ],"mr-IN" : [
+            
+            {"value": "mr-IN-AarohiNeural", "label":"Aarohi (Female)" },    
+            {"value": "mr-IN-ManoharNeural", "label":"Manohar (Male)" }
+        ],"ms-MY" : [
+            
+            {"value": "ms-MY-YasminNeural", "label":"Yasmin (Female)" },    
+            {"value": "ms-MY-OsmanNeural", "label":"Osman (Male)" }
+        ],"mt-MT" : [
+            
+            {"value": "mt-MT-GraceNeural", "label":"Grace (Female)" },  
+            {"value": "mt-MT-JosephNeural", "label":"Joseph (Male)" }
+        ],"my-MM" : [
+            
+            {"value": "my-MM-NilarNeural", "label":"Nilar (Female)" },  
+            {"value": "my-MM-ThihaNeural", "label":"Thiha (Male)" }
+        ],"nb-NO" : [
+            
+            {"value": "nb-NO-PernilleNeural", "label":"Pernille (Female)" },    
+            {"value": "nb-NO-FinnNeural", "label":"Finn (Male)" },  
+            {"value": "nb-NO-IselinNeural", "label":"Iselin (Female)" }
+        ],"ne-NP" : [
+            
+            {"value": "ne-NP-HemkalaNeural", "label":"Hemkala (Female)" },  
+            {"value": "ne-NP-SagarNeural", "label":"Sagar (Male)" }
+        ],"nl-BE" : [
+            
+            {"value": "nl-BE-DenaNeural", "label":"Dena (Female)" },    
+            {"value": "nl-BE-ArnaudNeural", "label":"Arnaud (Male)" }
+        ],"nl-NL" : [
+            
+            {"value": "nl-NL-FennaNeural", "label":"Fenna (Female)" },  
+            {"value": "nl-NL-MaartenNeural", "label":"Maarten (Male)" },  
+            {"value": "nl-NL-ColetteNeural", "label":"Colette (Female)" }
+        ],"pl-PL" : [
+            
+            {"value": "pl-PL-AgnieszkaNeural", "label":"Agnieszka (Female)" },  
+            {"value": "pl-PL-MarekNeural", "label":"Marek (Male)" },  
+            {"value": "pl-PL-ZofiaNeural", "label":"Zofia (Female)" }
+        ],"ps-AF" : [
+            
+            {"value": "ps-AF-LatifaNeural", "label":"Latifa (Female)" },    
+            {"value": "ps-AF-GulNawazNeural", "label":"GulNawaz (Male)" }
+        ],"pt-BR" : [
+            
+            {"value": "pt-BR-FranciscaNeural", "label":"Francisca (Female)" },  
+            {"value": "pt-BR-AntonioNeural", "label":"Antonio (Male)" },  
+            {"value": "pt-BR-BrendaNeural", "label":"Brenda (Female)" },  
+            {"value": "pt-BR-DonatoNeural", "label":"Donato (Male)" },    
+            {"value": "pt-BR-ElzaNeural", "label":"Elza (Female)" },    
+            {"value": "pt-BR-FabioNeural", "label":"Fabio (Male)" },    
+            {"value": "pt-BR-GiovannaNeural", "label":"Giovanna (Female)" },    
+            {"value": "pt-BR-HumbertoNeural", "label":"Humberto (Male)" },  
+            {"value": "pt-BR-JulioNeural", "label":"Julio (Male)" },  
+            {"value": "pt-BR-LeilaNeural", "label":"Leila (Female)" },    
+            {"value": "pt-BR-LeticiaNeural", "label":"Leticia (Female)" },  
+            {"value": "pt-BR-ManuelaNeural", "label":"Manuela (Female)" },    
+            {"value": "pt-BR-NicolauNeural", "label":"Nicolau (Male)" },    
+            {"value": "pt-BR-ValerioNeural", "label":"Valerio (Male)" },    
+            {"value": "pt-BR-YaraNeural", "label":"Yara (Female)" }
+        ],"pt-PT" : [
+            
+            {"value": "pt-PT-RaquelNeural", "label":"Raquel (Female)" },    
+            {"value": "pt-PT-DuarteNeural", "label":"Duarte (Male)" },  
+            {"value": "pt-PT-FernandaNeural", "label":"Fernanda (Female)" }
+        ],"ro-RO" : [
+            
+            {"value": "ro-RO-AlinaNeural", "label":"Alina (Female)" },  
+            {"value": "ro-RO-EmilNeural", "label":"Emil (Male)" }
+        ],"ru-RU" : [
+            
+            {"value": "ru-RU-SvetlanaNeural", "label":"Svetlana (Female)" },    
+            {"value": "ru-RU-DmitryNeural", "label":"Dmitry (Male)" },  
+            {"value": "ru-RU-DariyaNeural", "label":"Dariya (Female)" }
+        ],"si-LK" : [
+            
+            {"value": "si-LK-ThiliniNeural", "label":"Thilini (Female)" },  
+            {"value": "si-LK-SameeraNeural", "label":"Sameera (Male)" }
+        ],"sk-SK" : [
+            
+            {"value": "sk-SK-ViktoriaNeural", "label":"Viktoria (Female)" },    
+            {"value": "sk-SK-LukasNeural", "label":"Lukas (Male)" }
+        ],"sl-SI" : [
+            
+            {"value": "sl-SI-PetraNeural", "label":"Petra (Female)" },  
+            {"value": "sl-SI-RokNeural", "label":"Rok (Male)" }
+        ],"so-SO" : [
+            
+            {"value": "so-SO-UbaxNeural", "label":"Ubax (Female)" },    
+            {"value": "so-SO-MuuseNeural", "label":"Muuse (Male)" }
+        ],"sq-AL" : [
+            
+            {"value": "sq-AL-AnilaNeural", "label":"Anila (Female)" },  
+            {"value": "sq-AL-IlirNeural", "label":"Ilir (Male)" }
+        ],"sr-RS" : [
+            
+            {"value": "sr-RS-SophieNeural", "label":"Sophie (Female)" },    
+            {"value": "sr-RS-NicholasNeural", "label":"Nicholas (Male)" }
+        ],"su-ID" : [
+            
+            {"value": "su-ID-TutiNeural", "label":"Tuti (Female)" },    
+            {"value": "su-ID-JajangNeural", "label":"Jajang (Male)" }
+        ],"sv-SE" : [
+            
+            {"value": "sv-SE-SofieNeural", "label":"Sofie (Female)" },  
+            {"value": "sv-SE-MattiasNeural", "label":"Mattias (Male)" },  
+            {"value": "sv-SE-HilleviNeural", "label":"Hillevi (Female)" }
+        ],"sw-KE" : [
+            
+            {"value": "sw-KE-ZuriNeural", "label":"Zuri (Female)" },    
+            {"value": "sw-KE-RafikiNeural", "label":"Rafiki (Male)" }
+        ],"sw-TZ" : [
+            
+            {"value": "sw-TZ-RehemaNeural", "label":"Rehema (Female)" },    
+            {"value": "sw-TZ-DaudiNeural", "label":"Daudi (Male)" }
+        ],"ta-IN" : [
+            
+            {"value": "ta-IN-PallaviNeural", "label":"Pallavi (Female)" },  
+            {"value": "ta-IN-ValluvarNeural", "label":"Valluvar (Male)" }
+        ],"ta-LK" : [
+            
+            {"value": "ta-LK-SaranyaNeural", "label":"Saranya (Female)" },  
+            {"value": "ta-LK-KumarNeural", "label":"Kumar (Male)" }
+        ],"ta-MY" : [
+            
+            {"value": "ta-MY-KaniNeural", "label":"Kani (Female)" },    
+            {"value": "ta-MY-SuryaNeural", "label":"Surya (Male)" }
+        ],"ta-SG" : [
+            
+            {"value": "ta-SG-VenbaNeural", "label":"Venba (Female)" },  
+            {"value": "ta-SG-AnbuNeural", "label":"Anbu (Male)" }
+        ],"te-IN" : [
+            
+            {"value": "te-IN-ShrutiNeural", "label":"Shruti (Female)" },    
+            {"value": "te-IN-MohanNeural", "label":"Mohan (Male)" }
+        ],"th-TH" : [
+            
+            {"value": "th-TH-PremwadeeNeural", "label":"Premwadee (Female)" },  
+            {"value": "th-TH-NiwatNeural", "label":"Niwat (Male)" },  
+            {"value": "th-TH-AcharaNeural", "label":"Achara (Female)" }
+        ],"tr-TR" : [
+            
+            {"value": "tr-TR-EmelNeural", "label":"Emel (Female)" },    
+            {"value": "tr-TR-AhmetNeural", "label":"Ahmet (Male)" }
+        ],"uk-UA" : [
+            
+            {"value": "uk-UA-PolinaNeural", "label":"Polina (Female)" },    
+            {"value": "uk-UA-OstapNeural", "label":"Ostap (Male)" }
+        ],"ur-IN" : [
+            
+            {"value": "ur-IN-GulNeural", "label":"Gul (Female)" },  
+            {"value": "ur-IN-SalmanNeural", "label":"Salman (Male)" }
+        ],"ur-PK" : [
+            
+            {"value": "ur-PK-UzmaNeural", "label":"Uzma (Female)" },    
+            {"value": "ur-PK-AsadNeural", "label":"Asad (Male)" }
+        ],"uz-UZ" : [
+            
+            {"value": "uz-UZ-MadinaNeural", "label":"Madina (Female)" },    
+            {"value": "uz-UZ-SardorNeural", "label":"Sardor (Male)" }
+        ],"vi-VN" : [
+            
+            {"value": "vi-VN-HoaiMyNeural", "label":"HoaiMy (Female)" },    
+            {"value": "vi-VN-NamMinhNeural", "label":"NamMinh (Male)" }
+        ],"wuu-CN" : [
+            
+            {"value": "wuu-CN-XiaotongNeural", "label":"Xiaotong (Female)" },   
+            {"value": "wuu-CN-YunzheNeural", "label":"Yunzhe (Male)" }
+        ],"yue-CN" : [
+            
+            {"value": "yue-CN-XiaoMinNeural", "label":"XiaoMin (Female)" }, 
+            {"value": "yue-CN-YunSongNeural", "label":"YunSong (Male)" }
+        ],"zh-CN" : [
+            
+            {"value": "zh-CN-XiaoxiaoNeural", "label":"Xiaoxiao (Female)" },    
+            {"value": "zh-CN-YunxiNeural", "label":"Yunxi (Male)" },    
+            {"value": "zh-CN-YunjianNeural", "label":"Yunjian (Male)" },    
+            {"value": "zh-CN-XiaoyiNeural", "label":"Xiaoyi (Female)" },    
+            {"value": "zh-CN-YunyangNeural", "label":"Yunyang (Male)" },    
+            {"value": "zh-CN-XiaochenNeural", "label":"Xiaochen (Female)" },    
+            {"value": "zh-CN-XiaohanNeural", "label":"Xiaohan (Female)" },  
+            {"value": "zh-CN-XiaomengNeural", "label":"Xiaomeng (Female)" },  
+            {"value": "zh-CN-XiaomoNeural", "label":"Xiaomo (Female)" },  
+            {"value": "zh-CN-XiaoqiuNeural", "label":"Xiaoqiu (Female)" },    
+            {"value": "zh-CN-XiaoruiNeural", "label":"Xiaorui (Female)" },  
+            {"value": "zh-CN-XiaoshuangNeural", "label":"Xiaoshuang (Female, Child)" },    
+            {"value": "zh-CN-XiaoxuanNeural", "label":"Xiaoxuan (Female)" },    
+            {"value": "zh-CN-XiaoyanNeural", "label":"Xiaoyan (Female)" },  
+            {"value": "zh-CN-XiaoyouNeural", "label":"Xiaoyou (Female, Child)" }, 
+            {"value": "zh-CN-XiaozhenNeural", "label":"Xiaozhen (Female)" },  
+            {"value": "zh-CN-YunfengNeural", "label":"Yunfeng (Male)" },  
+            {"value": "zh-CN-YunhaoNeural", "label":"Yunhao (Male)" },    
+            {"value": "zh-CN-YunxiaNeural", "label":"Yunxia (Male)" },  
+            {"value": "zh-CN-YunyeNeural", "label":"Yunye (Male)" },  
+            {"value": "zh-CN-YunzeNeural", "label":"Yunze (Male)" }
+        ],"zh-CN-henan" : [
+            
+            {"value": "zh-CN-henan-YundengNeural", "label":"zh-CN-henan-Yundeng (Male)" }
+        ],"zh-CN-liaoning" : [
+            
+            {"value": "zh-CN-liaoning-XiaobeiNeural", "label":"zh-CN-liaoning-Xiaobei (Female)" }
+        ],"zh-CN-shaanxi" : [
+            
+            {"value": "zh-CN-shaanxi-XiaoniNeural", "label":"zh-CN-shaanxi-Xiaoni(Female)" }
+        ],"zh-CN-shandong" : [
+            
+            {"value": "zh-CN-shandong-YunxiangNeural", "label":"zh-CN-shandong-Yunxiang (Male)" }
+        ],"zh-CN-sichuan" : [
+            
+            {"value": "zh-CN-sichuan-YunxiNeural", "label":"zh-CN-sichuan-Yunxi (Male)" }
+        ],"zh-HK" : [
+            
+            {"value": "zh-HK-HiuMaanNeural", "label":"HiuMaan (Female)" },  
+            {"value": "zh-HK-WanLungNeural", "label":"WanLung (Male)" },  
+            {"value": "zh-HK-HiuGaaiNeural", "label":"HiuGaai (Female)" }
+        ],"zh-TW" : [
+            
+            {"value": "zh-TW-HsiaoChenNeural", "label":"HsiaoChen (Female)" },  
+            {"value": "zh-TW-YunJheNeural", "label":"YunJhe (Male)" },    
+            {"value": "zh-TW-HsiaoYuNeural", "label":"HsiaoYu (Female)" }
+        ],"zu-ZA" : [
+            
+            {"value": "zu-ZA-ThandoNeural", "label":"Thando (Female)" },    
+            {"value": "zu-ZA-ThembaNeural", "label":"Themba (Male)" }
+        ]
+    
+    }
+  }
+  

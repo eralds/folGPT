@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AudioTest</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+	<div class="assistant">
+
+	<h1>FolGPT</h1>
+
+	<div class="chat-box">
+		
+		<div class="message user-message">
+		  <span>USER:</span>
+		  <p id="user"></p>
+		</div>
+		<div class="message server-message">
+		  <span>RESPONSE:</span>
+		  <p id="server"></p>
+		</div>
+	  </div>
+	    <div id="record-button">
+			<button id="record" class="record-button">
+				<i class="fas fa-microphone"></i>
+			</button>
+			<p>
+				Duration: <span id="duration">0ms</span>
+			</p>
+		</div>
+	</div>
+	
+	<label for="language-select">Select Language:</label>
+    <select id="language-select" onchange="updateVoiceOptions()"></select>
+
+    <br><br>
+
+    <label for="voice-select">Select Voice:</label>
+    <select id="voice-select"></select>
+
+    <script src="static/selector.js"></script>
+    <script src="static/wzrecorder.js"></script>
+    <script>
+	
+	var recorder = new WzRecorder({
+		onRecordingStop: function(blob) {
+			//document.getElementById('player').src = URL.createObjectURL(blob);
+		},
+		onRecording: function(milliseconds) {
+			document.getElementById('duration').innerText = milliseconds + 'ms';
+		}
+	});
+
+	// wire up the microphone button to toggle recording
+	document.getElementById('record').onclick = recorder.toggleRecording;
+	
+	</script>
+</body>
+</html>
