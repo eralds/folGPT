@@ -183,4 +183,4 @@ The [OpenAI API](https://openai.com/blog/openai-api)
 This [GMass blog page](https://www.gmass.co/blog/record-audio-mobile-web-page-ios-android/) written by Ajay Goel.
 
 
-Feel free to contribute to this project by opening issues or submitting pull requests. Enjoy using the web speech recognizer!
+Feel free to contribute to this project by opening issues or submitting pull requests. 
